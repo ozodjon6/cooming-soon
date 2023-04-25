@@ -1,0 +1,36 @@
+.cooming-soon {
+  margin: 0 auto;
+}
+
+.cooming-soon__title {
+    max-width: 770px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin-bottom: 32px;
+
+    @include respond(mobilemini) {
+      font-size: 32px;
+    }
+}
+
+.cooming-soon__subtitle {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    margin-bottom: 32px;
+}
+
+.cooming-soon__image {
+  max-width: 770px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
